@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "PhTFe4ma3aTB5ILVpak+8VRdB8R46caiJtU+COBAyKQ=",
+  "Source": "SupplyChain.Server",
+  "BasePath": "_content/SupplyChain.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Hi\\source\\repos\\SupplyChain\\supplychain.client\\supplychain.client.esproj",
+      "Version": 2,
+      "Source": "supplychain.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
