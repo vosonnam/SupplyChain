@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using SupplyChain.Server.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +10,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<TxngContext>(options =>
+    options.UseSqlServer(
+            builder.Configuration.GetConnectionString("dbTXNG")
+        ));
 var app = builder.Build();
 
 app.UseDefaultFiles();

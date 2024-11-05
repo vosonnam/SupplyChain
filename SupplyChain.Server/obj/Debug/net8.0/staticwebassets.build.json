@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PhTFe4ma3aTB5ILVpak+8VRdB8R46caiJtU+COBAyKQ=",
+  "Hash": "+x4oJCJl5tXlw7RkPdie3x3j/pKwa6thvCLX76Otf6U=",
   "Source": "SupplyChain.Server",
   "BasePath": "_content/SupplyChain.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "supplychain.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
